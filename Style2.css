@@ -1,0 +1,213 @@
+.section-heading{
+	font-size: 50px;
+	padding-top: 80px;
+	text-align: center;
+	font-family: cursive;
+}
+.full-box{
+	color: red;
+}
+
+.Varities li{
+	display: Inline-block;
+}
+.Varities li{
+	display: k;
+}
+
+.Varities li{
+	display: inline-block;
+
+}
+.Varities li{
+	display: inline-block;
+}
+.about-heading{
+	font-family: cursive;
+	text-align: center;
+}
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	color: ;
+}
+.food-name{
+	font-size: 20px;
+	font-weight: 50px;
+}
+
+.fname{
+	font-size: 20px;
+	font-weight: 50px;
+	color: white;
+	text-align: center;
+}
+
+.food-price{
+	font-size: 20px;
+	font-weight: 50px;
+}
+
+.col_span_1_of_2{
+	display: inline-block;
+	background-color: gray;
+	border-radius: 20px;
+	font-size-adjust: auto;
+	overflow: hidden;
+
+}
+
+.col_span_1_of_2 img{
+	opacity: .7;
+	transform: scale(1.15);
+	transition:transform: 0.5%,opacity: 0.5;
+}
+.col_span_1_of_2 img:hover{
+	transform: scale(1);
+	opacity: 1;
+}
+.food-menu{
+	font-size: 30px;
+	text-decoration: none;
+	border-radius: 200px;
+	
+}
+
+.food-menu ,
+.food-menu visited{
+	background-color: gray;
+	font-size: 30px;
+	color: black;
+}
+
+.food-menu:hover,
+.food-menu:active {
+	background-color:red;
+}
+
+.Top-img{
+	size: 50px;
+}
+.Junk-img{
+	
+	width: 299px;
+	height: 168px;
+}
+
+.Bev-img{
+	
+	size: 100px;
+}
+
+.footer{
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+	color: #888;
+}
+
+.footer-nav li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	background-color: gray;
+
+
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+.social-Links {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.social-Links li a:link,
+.social-Links li a:visited {
+	color: #888;
+	text-decoration: none;
+	font-size: 160%;
+}
+
+.fab-fa-facbook:hover{
+	color: #3b5998;
+}
+
+.fab-fa-instagram:hover{
+	color: #c32aa3;
+}
+
+.fab-fa-twitter-square:hover{
+	color: #1da1f2;
+}
+
+.fab-fa-facbook,
+.fab-fa-instagram,
+.fab-fa-twitter-square{
+	transition: color 0.2s;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav{
+	float: left;
+}
+.Social-links{
+	float: right;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	font-size: 160%;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+	color: black;
+	transition: 0.2s;
+}
+
+/*
+facebook: #3b5998
+Twitter: #55acee
+
+*/
+
+.icon{
+	height: 25px;
+	width: 45px;
+	padding-left: 50px;
+}
+
+.icon1{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon2{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon3{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+
+
