@@ -1,0 +1,52 @@
+
+/*We use it to show that any devices at the extent of 1200px of width and lower will be adjusted*/
+@media only screen and (max-width: 1200px) {
+	html,
+	body{
+		font-size: 14px;
+	}
+
+	.about-para{
+		margin-bottom: 20px;
+	}
+
+	.section-heading,
+	.service-heading,
+	.testimonial-heading,
+	.packages-heading,
+	.contact-heading{
+		margin-top: 90px;
+	}
+
+	.big-icon{
+		margin-bottom: 15px;
+	}
+
+
+}
+
+/*Smaller tablets to Larger tablets*/
+@media only screen and (max-width: 1023px){
+	.about-para{
+		color: #ff00ff;
+	}
+
+
+}
+/*Larger phones to smaller tablets*/
+@media only screen and (max-width:767px){
+	.about-para{
+		color: #00ff00;
+	}
+
+
+}
+
+/*samller to larger phones*/
+@media only screen and (max-width: 479px){
+	.about-para{
+		color: #00ff;
+	}
+
+
+}
