@@ -1,3 +1,4 @@
+@charset "ISO-8859-1";
 
 /*We use it to show that any devices at the extent of 1200px of width and lower will be adjusted*/
 @media only screen and (max-width: 1200px) {

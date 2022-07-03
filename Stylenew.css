@@ -17,7 +17,7 @@
 }
 .croll{
 	padding-top: 40px;
-	height:183px;
+	height:200px;
 	width:275px;
 }
 
@@ -67,15 +67,21 @@
 .menu-text{
 	font-size: 30px;
 }
-
+.s1{
+	border-radius: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+	height:200px;
+	width:275px;
+}
 .button-3 {
   appearance: none;
-  background-color: #2ea44f;
+  background-color: black;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
   box-sizing: border-box;
-  color: #fff;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";

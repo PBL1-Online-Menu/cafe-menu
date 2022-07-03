@@ -35,7 +35,7 @@ html, body {
 
 }
 header{
-	background-image: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.7)),url(img/header-img.JPEG);
+	background-image: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.7)),url(https://i.pinimg.com/originals/85/85/8c/85858c7c24358b90ac8f914310b93121.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -118,9 +118,9 @@ h2 {
 	display: inline-block;
 
 }
-	
 
-}
+
+
 .main-nav li{
 	display: inline-block;
 	margin-right: 40px;
@@ -203,11 +203,11 @@ h2 {
 	height: 2px;
 	width: 100px;
 	background-color: #ed07b7;
-	content: "";******/
+	content: "";}******/
 
 
 
-}
+
 .work-section{
 	text-align: center;
 	background-color: #f4f4f4;
@@ -231,7 +231,7 @@ h2 {
 }
 
 .portfolio-img{
-	background-color: gray;
+	background-color: #696969;
 	overflow: hidden;
 }
 
@@ -240,7 +240,9 @@ h2 {
 	height: auto;
 	opacity: .7;
 	transform: scale(1.15);
-	transition:transform: 0.5%,opacity: 0.5;
+	
+	transform:0.5%;
+	opacity: 0.5;
 }
 
 .portfolio-img img:hover{
@@ -301,7 +303,7 @@ h2 {
 /**********Testimonial section ************/
 
 .testimonial-section {
-	background-image:url(img/testimonial-background.jpg);
+	background-image:url(https://github.com/PBL1-Online-Menu/cafe-menu/blob/main/img/testimonial-background.jpg?raw=true);
 	background-size: cover;
 	text-align: center;
 	color: #fff;
@@ -327,8 +329,8 @@ blockquote {
 
 }
 
-blockquote:before { 
-	content:”\003c”; 
+blockquote:before {
+	content:”\003c”;
 	display: bloc;
 	font-size: 500%;
 	position: absolute;
@@ -436,7 +438,7 @@ cite img {
 	background-color: #fcfcfc;
 
 }
- 
+
 .contact-section {
 	text-align: center;
 	font-size: 200%;
@@ -462,7 +464,7 @@ textarea {
 	border-radius: 3px;
 	border: 1px solid #555;
 	background-color: white;
-	
+
 
 
 }
@@ -506,7 +508,7 @@ label{
 	list-style: none;
 	display: inline-block;
 	margin-right: 20px;
-	
+
 
 
 }
@@ -566,5 +568,5 @@ label{
 footer p{
 	text-align: center;
 	margin-top: 50px;
-	
+
 }
