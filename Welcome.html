@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="Width=device-width, initial-scale=1.0">
+	<title>welcome</title>
+	
+	<script src="https://kit.fontawesome.com/521aa345c6.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Vendors\CSS\fluid.css"> 
+	<link rel="stylesheet" type="text/css" href="Resources/Css/Welcome.css">
+	
+
+</head>
+<body>
+	<header>
+		<div class="header-box">
+			<div class="header-box-text">
+				<h1 class="header1">STEAM CAFE</h1>
+				<h2 class="header2"></h2>
+			</div>
+			<!---<a href="dine.html" class="btn btn-full">DINE-IN</a>
+			<a href="#" class="btn btn-full">Takeaway</a>
+		</div>-->
+
+		<!-- Quote Container -->
+        <div class="container">
+             <!-- Quote to be Displayed Here -->
+            <h1>
+            <i class="fas fa-quote-left"></i>
+            <span class="quote" id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+            </h1>
+            <!-- Author to be Displayed Here -->
+            <p class="author" id="author"></p>
+
+            <hr/>
+
+        </div>
+
+        <script type="text/javascript">
+  			const text=document.getElementById("quote");
+  			const author=document.getElementById("author");
+
+
+  const getNewQuote = async () =>
+  {
+      //api for quotes
+      var url="https://type.fit/api/quotes";
+
+      // fetch the data from api
+      const response=await fetch(url);
+      console.log(typeof response);
+      //convert response to json and store it in quotes array
+      const allQuotes = await response.json();
+
+      // Generates a random number between 0 and the length of the quotes array
+      const indx = Math.floor(Math.random()*allQuotes.length);
+
+      //Store the quote present at the randomly generated index
+      const quote=allQuotes[indx].text;
+
+      //Store the author of the respective quote
+      const auth=allQuotes[indx].author;
+
+      if(auth==null)
+      {
+          author = "Anonymous";
+      }
+
+      //function to dynamically display the quote and the author
+      text.innerHTML=quote;
+      author.innerHTML="~ "+auth;
+  }
+  getNewQuote();
+
+  setTimeout(function () {
+   window.location.href= 'file:///C:/Users/pratikp/Desktop/QR-Code%20order%20Project/index.html'; // the redirect goes here
+
+},5000);
+
+
+  </script>
+</header>
+</body>
+
+
+
