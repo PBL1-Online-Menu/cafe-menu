@@ -1,0 +1,288 @@
+html,body{
+	background-image: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.7)),url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position:center;
+}
+.bar{
+	color: white;
+	float: right;
+	padding-left: 300px;
+	font-size: 30px;
+
+}
+.header-box{
+	padding-top: -100px;
+}
+
+.section-heading{
+	font-size: 50px;
+	padding-top: 80px;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+.full-box{
+	color: red;
+}
+
+.Varities li{
+	display: Inline-block;
+}
+.Varities li{
+	display: k;
+}
+
+.Varities li{
+	display: inline-block;
+
+}
+.Varities li{
+	display: inline-block;
+}
+.about-heading{
+	font-family: cursive;
+	text-align: center;
+	color: floralwhite;
+}
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	color: ;
+	padding-top: -80%;
+}
+.food-name{
+	font-size: 20px;
+	font-weight: 70px;
+	color: ghostwhite;
+}
+
+.fname{
+	font-size: 25px;
+	font-weight: 50px;
+	color: white;
+	text-align: center;
+	background-color:darkslategray;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+.food-price{
+	font-size: 20px;
+	font-weight: 70px;
+	color: ghostwhite;
+}
+
+.col_span_1_of_2{
+	display: inline-block;
+	/*background-color: gray;*/
+	border-radius: 20px;
+	font-size-adjust: auto;
+
+	
+
+}
+
+.col_span_1_of_2 img{
+	opacity: .7;
+	transform: scale(1.15);
+	transition:transform: 0.6%,opacity: 0.5;
+}
+.col_span_1_of_2 img:hover{
+	transform: scale(1);
+	opacity: 1;
+}
+.food-menu{
+	font-size: 30px;
+	text-decoration: none;
+	border-radius: 200px;
+	
+}
+
+.food-menu ,
+.food-menu visited{
+	background-color: gray;
+	font-size: 30px;
+	color: black;
+}
+
+.food-menu:hover,
+.food-menu:active {
+	background-color:red;
+}
+
+.img{
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+}
+
+.Top-img{
+	size: 50px;
+	background-color: gray;
+	border-radius: 20px;
+}
+.Junk-img{
+	
+	width: 299px;
+	height: 168px;
+	border-radius: 20px;
+}
+
+.Bev-img{
+	
+	size: 100px;
+	border-radius: 20px;
+}
+
+.footer{
+	background-color: #333;
+	padding: 50px;
+	font-size: 80%;
+	color: #888;
+	float: right;
+}
+
+
+.footer-nav li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	background-color:darkslategray;
+	border-radius: 4px;
+	background-size: 5px;
+
+
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+.social-Links {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+.social-Links li a:link,
+.social-Links li a:visited {
+	color: white;
+	text-decoration: none;
+	font-size: 160%;
+}
+
+.fab-fa-facbook:hover{
+	color: #3b5998;
+}
+
+.fab-fa-instagram:hover{
+	color: #c32aa3;
+}
+
+.fab-fa-twitter-square:hover{
+	color: #1da1f2;
+}
+
+.fab-fa-facbook,
+.fab-fa-instagram,
+.fab-fa-twitter-square{
+	transition: color 0.2s;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav{
+	float: left;
+}
+.Social-links{
+	float: right;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+	font-size: 160%;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+	color: black;
+	transition: 0.2s;
+}
+
+
+.icon{
+	height: 25px;
+	width: 45px;
+	padding-left: 50px;
+}
+
+.icon1{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon2{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon3{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.T1{
+	padding-left: 100px;
+}
+
+.J1{
+	padding-left: 190px;
+}
+
+.B1{
+	padding-left: 190px;
+}
+
+.btn23 {
+background-color: black;
+color: white;
+padding: 12px;
+font-size: 12px;
+}
+.nav-bar{
+position:fixed;
+display: block;
+flex-direction: right;
+position:relative;left:-20px; top:2px;
+}
+.dropdownlist-content{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 120px;
+z-index: 1;
+}
+.dropdownlist-content a {
+color: white;
+padding: 14px 18px;
+display: block;
+font-size: 20px;
+text-decoration: none;
+}
+.dropdownlist-content a:hover {background-color: gray;}
+.nav-bar:hover .dropdownlist-content {display: block;}
+.nav-bar:hover .btn23 {background-color: gray;}
