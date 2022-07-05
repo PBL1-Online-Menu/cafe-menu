@@ -1,0 +1,209 @@
+body{
+	background-blend-mode: darken;
+	padding-left: 80px;
+}
+
+
+.logo{
+	height: 100px;
+	width: auto;
+	float: left;
+	padding-bottom: 50px;
+}
+
+.head{
+	font-family: cursive;
+	background-image: url(img/Coffe.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	background-size: 1650px 1000px;
+	background-position: center;
+}
+
+.men-sec{
+	font-size: 60px;
+}
+
+.head1{
+	font-size: 250%;
+	padding-top: 90px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.title1{
+	font-size: 40px;
+	padding-top: 140px;
+	font-family: cursive;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+.col_span_1_of_3{
+	display: inline-block;
+}
+
+.s1{
+	border-radius: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.menu-txt{
+	font-family: cursive;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+.menu-txt2{
+	font-family: cursive;
+	padding-bottom: 30px;
+	border-bottom: solid;
+}
+
+
+
+.col_span_1_of_3 img:hover{
+	transform: scale(1);
+	opacity: 1;
+}
+
+.food2 ,
+.food2 visited{
+	background-color: gray;
+	font-size: 30px;
+}
+
+.icon1{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon2{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon3{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon4{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon5{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon6{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon7{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon8{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon9{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon10{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon11{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon12{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon13{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon14{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.icon15{
+	padding-left: 50px;
+	height: 25px;
+	width: 45px;
+}
+
+.btn23 {
+background-color: black;
+color: white;
+padding: 15px;
+font-size: 20px;
+}
+.nav-bar{
+position:fixed;
+display: block;
+flex-direction: right;
+float: right;
+position:relative;left:-20px; top:2px;
+font-size: 28px;
+padding-left: 30px;
+color: white;
+}
+.dropdownlist-content{
+display: none;
+position: absolute;
+background-color: black;
+min-width: 120px;
+z-index: 1;
+}
+.dropdownlist-content a {
+color: white;
+padding: 14px 18px;
+display: block;
+font-size: 20px;
+text-decoration: none;
+}
+.dropdownlist-content a:hover {background-color: gray;}
+.nav-bar:hover .dropdownlist-content {display: block;}
+.nav-bar:hover .btn23 {background-color: gray;}
+
+
+
+
+
+
+
+
+
