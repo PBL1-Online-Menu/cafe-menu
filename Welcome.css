@@ -1,0 +1,58 @@
+header{
+	background-image: linear-gradient(rgb(0,0,0,.3),rgb(0,0,0,.7)),url(img/Welcome.JPG);
+	background-size: contain;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	object-position:fixed;
+}
+
+.quote{
+	color: whitesmoke;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+.author{
+	color: whitesmoke;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+.header-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-style: italic;
+}
+
+.header1{
+	font-size: 100px;
+	font-style: italic;
+	color: navajowhite;
+	padding-bottom: 250px;
+	padding-left: 70px;
+	text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+.header2{
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+h2 {
+	font-size: 50%;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 100px;
+
+}
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+}
